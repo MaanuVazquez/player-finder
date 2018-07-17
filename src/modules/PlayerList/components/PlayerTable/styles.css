@@ -1,0 +1,10 @@
+.messageDiv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.messageDiv p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
