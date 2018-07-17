@@ -14,9 +14,7 @@ const mountDevRoot = () => {
   ReactDOM.render(
     <AppContainer errorReporter={Redbox}>
       <Provider store={store}>
-        <StrictMode>
-          <HotRoot/>
-        </StrictMode>
+        <HotRoot/>
       </Provider>
     </AppContainer>,
     window.document.getElementById('root')
